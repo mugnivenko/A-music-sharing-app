@@ -1,0 +1,25 @@
+{
+  "name": "@repo/rescript-mui-material",
+  "namespace": "Mui",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@rescript/core",
+    "@rescript/react",
+    "@repo/rescript-mui-system"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore"
+  ],
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@repo/rescript-mui-material",
+  "version": "0.0.9",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript build -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.0",
+    "@repo/rescript-mui-system": "workspace:*",
+    "@rescript/core": "^0.6.0",
+    "@rescript/react": "next",
+    "rescript": "next"
+  }
+}

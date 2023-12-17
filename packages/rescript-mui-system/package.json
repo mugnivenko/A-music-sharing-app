@@ -1,0 +1,20 @@
+{
+  "name": "@repo/rescript-mui-system",
+  "version": "0.0.7",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript build -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mui/system": "^5.15.0",
+    "@rescript/core": "^0.6.0",
+    "@rescript/react": "next",
+    "rescript": "next"
+  }
+}

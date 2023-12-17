@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "es6-global",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@rescript/core",
+    "@rescript/react",
+    "@repo/rescript-mui-system",
+    "@repo/rescript-mui-material"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore",
+  ],
+  "jsx": {
+    "mode": "automatic",
+    "version": 4
+  }
+}
