@@ -1,1 +1,1 @@
-export { make as Home } from "./HomePage.bs"
+export { make as Home } from "./ui/HomePage.bs"

@@ -1,0 +1,1 @@
+type props = JsxDOMStyle.t

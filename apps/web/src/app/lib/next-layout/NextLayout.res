@@ -11,12 +11,12 @@ let metadata: metadata = {
 }
 
 @react.component
-let make = (~children, ~className) => {
+let make = (~children) => {
   <html lang="en">
-    <body className>
+    <body className={Font.inter.className}>
       <ThemeProvider>
-        <div> {"Aboba"->React.string} </div>
-        children
+        <Mui.CssBaseline />
+        <SidebarLayout sidebar={<Sidebar />} page=children />
       </ThemeProvider>
     </body>
   </html>

@@ -1,5 +1,3 @@
-open MuiSystem
-
 @unboxed
 type themeOrThemeFunc =
   | Theme(Theme.t)

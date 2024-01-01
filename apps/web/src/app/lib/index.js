@@ -1,0 +1,1 @@
+export { Layout, metadata } from "./next-layout";

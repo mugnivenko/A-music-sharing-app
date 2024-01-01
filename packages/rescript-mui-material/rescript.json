@@ -16,7 +16,8 @@
     "@repo/rescript-mui-system"
   ],
   "bsc-flags": [
-    "-open RescriptCore"
+    "-open RescriptCore",
+    "-open MuiSystem"
   ],
   "jsx": {
     "version": 4,

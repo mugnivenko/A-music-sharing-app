@@ -1,1 +1,0 @@
-export { make as Layout, metadata } from "./Layout.bs"
