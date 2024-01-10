@@ -16,7 +16,7 @@
     "@repo/rescript-mui-material"
   ],
   "bsc-flags": [
-    "-open RescriptCore",
+    "-open RescriptCore"
   ],
   "jsx": {
     "mode": "automatic",

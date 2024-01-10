@@ -1,8 +1,12 @@
 @@directive("'use client';")
 
+module Wrapper = {
+  let make = Mui.Styled.styledElementWithTheme("div")(({theme}) => {
+    {"background": theme.palette.background.main, "height": "100vh"}
+  })
+}
+
 @react.component
 let make = () => {
-  <>
-    <div> {"String"->React.string} </div>
-  </>
+  <Wrapper> {"String"->React.string} </Wrapper>
 }

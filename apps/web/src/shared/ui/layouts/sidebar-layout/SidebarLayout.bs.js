@@ -10,12 +10,12 @@ function SidebarLayout(props) {
               children: Caml_option.some(JsxRuntime.jsxs(Grid, {
                         children: [
                           JsxRuntime.jsx(Grid, {
-                                xs: 4,
+                                xs: 3,
                                 children: Caml_option.some(props.sidebar),
                                 item: true
                               }),
                           JsxRuntime.jsx(Grid, {
-                                xs: 8,
+                                xs: 9,
                                 children: Caml_option.some(props.page),
                                 item: true
                               })

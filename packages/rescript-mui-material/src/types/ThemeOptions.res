@@ -1,6 +1,6 @@
 type text = {primary?: string}
 
-type background = {default?: string, paper?: string}
+type background = {default?: string, paper?: string, main?: string}
 
 type common = {white?: string}
 

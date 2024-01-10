@@ -1,4 +1,8 @@
-type t_theme = {spacing: Spacing.t}
+type background = {main: string}
+
+type palette = {background: background}
+
+type t_theme = {spacing: Spacing.t, palette: palette}
 
 type t = t_theme
 

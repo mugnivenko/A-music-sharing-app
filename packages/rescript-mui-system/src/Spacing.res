@@ -1,5 +1,3 @@
-@@directive("'use client';")
-
 type arguments =
   | Default
   | AllDirections(float)

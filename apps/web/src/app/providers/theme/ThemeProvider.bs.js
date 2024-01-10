@@ -7,6 +7,11 @@ import * as JsxRuntime from "react/jsx-runtime";
 import * as Styles from "@mui/material/styles";
 
 var theme = Styles.createTheme({
+      palette: {
+        background: {
+          main: "#F9F9FB"
+        }
+      },
       typography: {
         fontFamily: Font.inter.style.fontFamily
       },

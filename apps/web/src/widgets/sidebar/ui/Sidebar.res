@@ -1,8 +1,20 @@
 @@directive("'use client';")
 
-let make = Mui.Styled.styledElementWithTheme("div")(({}) => {
-  {
-    "width": "200px",
-    "height": "100vh",
-  }
-})
+module LogoWrapper = {
+  let make = Mui.Styled.styledElement("div")({
+    "height": "10%",
+    "display": "flex",
+    "justifyContent": "center",
+    "alignItems": "center",
+  })
+}
+
+@react.component
+let make = () => {
+  <>
+    <LogoWrapper>
+      <AppLogo />
+    </LogoWrapper>
+    <SidebarMenu />
+  </>
+}

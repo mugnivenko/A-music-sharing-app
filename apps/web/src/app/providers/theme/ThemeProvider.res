@@ -8,6 +8,7 @@ let theme = Theme.create({
     fontFamily: Font.inter.style.fontFamily,
   },
   spacing: Spacing.make,
+  palette: {background: {main: "#F9F9FB"}},
 })
 
 @react.component
