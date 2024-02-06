@@ -1,12 +1,17 @@
 open Mui
+open NextIntl
+
+@@directive(`'use client'`)
 
 type menuItem = {key: string, label: string}
 
-let menuItems = [{key: "home", label: "Aboba"}]
-
 @react.component
 let make = () => {
-  <List>
+  let translate = Client.useTranslations("SidebarMenu")
+
+  let menuItems = [{key: "home", label: translate("home")}]
+
+  <Mui.List>
     {menuItems
     ->Belt.Array.map(({key, label}) => {
       <ListItem key>
@@ -19,5 +24,5 @@ let make = () => {
       </ListItem>
     })
     ->React.array}
-  </List>
+  </Mui.List>
 }

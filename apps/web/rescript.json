@@ -8,12 +8,13 @@
     "module": "es6-global",
     "in-source": true
   },
-  "suffix": ".bs.js",
+  "suffix": ".res.js",
   "bs-dependencies": [
     "@rescript/core",
     "@rescript/react",
     "@repo/rescript-mui-system",
-    "@repo/rescript-mui-material"
+    "@repo/rescript-mui-material",
+    "@repo/rescript-next-intl"
   ],
   "bsc-flags": [
     "-open RescriptCore"

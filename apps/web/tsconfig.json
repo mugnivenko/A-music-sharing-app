@@ -9,17 +9,17 @@
     "baseUrl": "src",
     "paths": {
       "@/pages/*": [
-        "pages/*"
+        "pages-flat/*"
       ],
       "@/app/*": [
         "app/*"
       ]
     },
-    "strictNullChecks": true
+    "strictNullChecks": true,
   },
   "include": [
     "next-env.d.ts",
-    "next.config.js",
+    "next.config.mjs",
     "**/*.js",
     "**/*.jsx",
     "**/*.ts",

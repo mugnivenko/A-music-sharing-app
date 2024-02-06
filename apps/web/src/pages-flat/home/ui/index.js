@@ -1,0 +1,1 @@
+export { make as Home } from "./HomePage.res.js"

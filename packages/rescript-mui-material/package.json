@@ -1,6 +1,6 @@
 {
   "name": "@repo/rescript-mui-material",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
